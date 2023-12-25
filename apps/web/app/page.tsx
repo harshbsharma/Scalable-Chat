@@ -21,6 +21,7 @@ export default function Page(){
       </div>
 
       <div>
+        <br></br>
         <h1>All message are here</h1>
 
         {messages.map((e) => <li>{e}</li>)}
